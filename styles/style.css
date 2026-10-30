@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   gap: 32px;
+  letter-spacing: 0.18px;
   list-style: circle;
 }
 
@@ -39,6 +40,7 @@
 
 .header__logo-image {
   display: block;
+  height: 105px;
 }
 
 .address {
@@ -54,6 +56,10 @@
 
 .address a {
   text-underline-offset: 4px;
+}
+
+.address p {
+  max-width: 220px;
 }
 
 .header__address {
@@ -101,10 +107,6 @@
   text-align: right;
 }
 
-.letter-spacing-extended {
-  letter-spacing: 60px;
-}
-
 .no-letter-spacing {
   letter-spacing: 0;
 }
@@ -122,7 +124,7 @@
 .cover__description-text {
   font-size: 22px;
   line-height: 1.28;
-  word-spacing: 18px;
+  word-spacing: 19px;
   text-transform: uppercase;
 }
 
@@ -245,6 +247,7 @@
 
 .about__logo-image {
   width: 148px;
+  height: 105px;
 }
 
 .about__title {
